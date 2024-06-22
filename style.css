@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: cornflowerblue;
+    margin:0;
+    flex-wrap: nowrap;
+}
+menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+    font-size: large;
+    list-style: none;
+    gap: 1px;
+    flex-wrap: nowrap;
+}
+menu .language:hover{
+    background-color: cornflowerblue;
+}
+menu li a:hover{
+    color: lightgray;
+}
+menu .language a{
+    text-decoration: none;
+    color: white;
+}
+menu li {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 5px;
+}
+menu li:hover{
+    background-color: #646fed;
+}
+header img{
+    height:98%;
+    border:1px solid cornflowerblue;
+}
+body{
+    font-family: sans-serif;
+}
