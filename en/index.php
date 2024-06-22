@@ -6,5 +6,6 @@
     <link rel="stylesheet" href="../style.css"
 </head>
 <?php include "header.html"?>
+<?php include "opinion.html"?>
 <?php include "contact.html"?>
 </html>
