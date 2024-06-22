@@ -22,6 +22,10 @@ menu{
 menu .language:hover{
     background-color: cornflowerblue;
 }
+menu li a{
+    color:white;
+    text-decoration: none;
+}
 menu li a:hover{
     color: lightgray;
 }
