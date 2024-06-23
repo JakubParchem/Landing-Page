@@ -21,5 +21,6 @@ $opinions->specialopinions("en");
 $prod=new Products("en");
 $prod->display("en");
 ?>
+<h2>Contact</h2>
 <?php include "contact.html";?>
 </html>
