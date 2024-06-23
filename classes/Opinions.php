@@ -1,8 +1,8 @@
 <?php
-include Opinion::class;
+include "Opinion.php";
 class Opinions
 {
-    private Opinion $opinion_list;
+    private $opinion_list=[];
     public function __construct()
     {
         $f=fopen("../opinions.txt","r");
@@ -11,8 +11,8 @@ class Opinions
             $str.=fgets($f);
         }
         $arr=explode("~",$str);
-        foreach ($arr as $s){
-            $this->opinion_list[]=new Opinion($s);
+        for ($i=0;$i<sizeof($arr)-1;$i++){
+            $this->opinion_list[]=new Opinion($arr[$i]);
         }
     }
     public function show($i)
@@ -31,5 +31,12 @@ class Opinions
     }
     public function size(){
         return sizeof($this->opinion_list);
+    }
+    private function save(){
+        $f=fopen("../opinions.txt","w");
+        for ($i = 0; $i < sizeof($this->opinion_list)-1; $i++) {
+            fwrite($f,$this->opinion_list[$i]->display());
+        }
+        fclose($f);
     }
 }
