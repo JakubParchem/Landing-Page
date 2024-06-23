@@ -8,6 +8,7 @@
 </head>
 <?php include "header.html"?>
 <?php include "call.html"?>
+<?php include "about_us.html";?>
 <div id="opinion">
 <?php include "../classes/Opinions.php";
 $opinions=new Opinions();
