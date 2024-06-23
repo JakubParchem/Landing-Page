@@ -14,7 +14,7 @@
 $opinions=new Opinions();
 $opinions->specialopinions("pl");
 ?>
-<?php include "opinion.html"?>
+    <a href="opinion.php">Wysyłanie i Więcej Opinii</a>
 </div>
 <?php include "contact.html" ?>
 </html>

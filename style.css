@@ -212,9 +212,6 @@ input{
     justify-content: center;
     align-items: center;
 }
-.specialopinion:hover{
-    width: 100%;
-}
 .specialopinion img{
     grid-area: img;
     height: 10vh;
@@ -232,4 +229,32 @@ input{
     color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
+}
+.specialopinion p:hover{
+    background-color: rgba(128, 128, 128, 0.35);
+}
+.opinions{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.opinions a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#opinion a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+#opinion a:hover{
+    background-color: #646fed;
 }
