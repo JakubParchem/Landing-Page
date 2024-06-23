@@ -19,15 +19,17 @@ menu{
     gap: 1px;
     flex-wrap: nowrap;
 }
-menu .language:hover{
+menu li a.language:hover{
     background-color: cornflowerblue;
 }
 menu li a{
     color:white;
     text-decoration: none;
+    padding: 20px 25%;
+    border-radius: 10px;
 }
 menu li a:hover{
-    color: lightgray;
+    background-color: #646fed;
 }
 menu .language a{
     text-decoration: none;
@@ -35,14 +37,10 @@ menu .language a{
 }
 menu li {
     width: 25%;
-    padding: 20px;
     text-align: center;
     text-decoration: none;
     color:white;
     border-radius: 5px;
-}
-menu li:hover{
-    background-color: #646fed;
 }
 header img{
     height:98%;
