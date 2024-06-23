@@ -258,3 +258,31 @@ input{
 #opinion a:hover{
     background-color: #646fed;
 }
+#gallery{
+    display: grid;
+    grid-template: '1fr 1fr 1fr';
+    gap: 5px;
+    color: whitesmoke;
+    width: 80%;
+}
+#gallery .product {
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#gallery .product img{
+    height: 100px;
+    border-radius: 10px;
+}
+#gallery .product:hover{
+    background-color: #646fed;
+}
+h2{
+    color: whitesmoke;
+    background-color: dodgerblue;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}

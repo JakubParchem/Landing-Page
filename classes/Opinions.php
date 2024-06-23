@@ -50,7 +50,7 @@ class Opinions
         }
         else if($lang=="en"){
             echo "<div class='specialopinion'><img src='https://img.freepik.com/darmowe-zdjecie/przekonana-pretty-business-woman-z-przekroczone-rece_1262-2992.jpg' alt='portait'> <p>".$this->opinion_list[3]->getContent()."</p><h3>".$this->opinion_list[3]->getSender()."</h3></div>";
-            echo "<div class='specialopinion'><img src='https://previews.123rf.com/images/michaeljung/michaeljung1509/michaeljung150900153/45020213-close-up-portrait-of-young-african-business-man.jpg'> <p>".$this->opinion_list[4]->getContent()."</p><h3>".$this->opinion_list[4]->getSender()."</h3></div>";
+            echo "<div class='specialopinion'><img src='https://previews.123rf.com/images/michaeljung/michaeljung1509/michaeljung150900153/45020213-close-up-portrait-of-young-african-business-man.jpg' alt='portrait'> <p>".$this->opinion_list[4]->getContent()."</p><h3>".$this->opinion_list[4]->getSender()."</h3></div>";
             echo "<div class='specialopinion'><img src='https://img.freepik.com/premium-photo/young-hispanic-business-woman-wearing-professional-look-smiling-confident-city_908985-5470.jpg' alt='portait'> <p>".$this->opinion_list[5]->getContent()."</p><h3>".$this->opinion_list[5]->getSender()."</h3></div>";
         }
     }

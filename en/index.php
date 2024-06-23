@@ -16,5 +16,10 @@ $opinions->specialopinions("en");
 ?>
 <a href="opinion.php">For Sending and more Opinions</a>
 </div>
+<h2>Our Products</h2>
+<?php include "../classes/Products.php";
+$prod=new Products("en");
+$prod->display("en");
+?>
 <?php include "contact.html";?>
 </html>
