@@ -4,8 +4,8 @@ das
 d
 sad
 sa
-dsadddsd(<msg>)
+dsadddsd(<msg>)~
 dsadsdsad(<name>)
 sdasdadasdasff
 f
-safa(<msg>)
+safa(<msg>)~
