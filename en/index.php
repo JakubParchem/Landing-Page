@@ -8,7 +8,9 @@
 </head>
 <?php include "header.html";?>
 <?php include "call.html";?>
+<h2>About Us</h2>
 <?php include "about_us.html";?>
+<h2>Opinions</h2>
 <div id="opinion">
 <?php include "../classes/Opinions.php";
 $opinions=new Opinions();
@@ -23,4 +25,5 @@ $prod->display("en");
 ?>
 <h2>Contact</h2>
 <?php include "contact.html";?>
+<?php include "footer.html";?>
 </html>

@@ -1,7 +1,7 @@
 <?php
 $f=fopen("messages.txt","a");
 fwrite($f,$_POST['name'].";;\n");
-fwrite($f,$_POST['mail'].";;\n");
+fwrite($f,$_POST['email'].";;\n");
 fwrite($f,$_POST['phone'].";;\n");
 fwrite($f,$_POST['topic'].";;\n");
 fwrite($f,$_POST['message']."~");
