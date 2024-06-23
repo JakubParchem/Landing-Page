@@ -12,7 +12,7 @@
 <div id="opinion">
 <?php include "../classes/Opinions.php";
 $opinions=new Opinions();
-$opinions->show(3);
+$opinions->specialopinions("en");
 ?>
 <?php include "opinion.html";?>
 </div>

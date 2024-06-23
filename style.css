@@ -115,7 +115,7 @@ input{
     border-radius: 10px;
 }
 #opinion{
-    width: 60%;
+    width: 70%;
 }
 #call{
     background-image: url("https://thumbs.dreamstime.com/b/u%C3%A5%E2%80%BAmiechni%C3%A4%E2%84%A2ci-fachowi-lider-biznesu-i-pracownik-grupa-zespalaj%C3%A4%E2%80%A6-si%C3%A4%E2%84%A2-portret-biznesowi-trener%C3%A3%C2%B3w-lider%C3%A3%C2%B3w-mentory-pozuje-wraz-z-141681202.jpg");
@@ -125,6 +125,9 @@ input{
     border-radius: 10px;
     position: relative;
     margin-top: 10px;
+}
+#call:hover{
+    width: 82%;
 }
 #call a{
     float: right;
@@ -160,10 +163,13 @@ input{
         'main values mission'
         'main values vision';
     color: whitesmoke;
-    gap: 3px;
+    gap: 5px;
     padding: 10px;
     border-radius: 10px;
     width: 80%;
+}
+#about:hover{
+    width: 82%;
 }
 #about .main{
     grid-area: main;
@@ -184,6 +190,46 @@ input{
     border-radius: 10px;
     text-align: center;
 }
+#about div:hover{
+    background-color: rgba(128, 128, 128, 0.35);
+}
 #about div h3{
     text-align: center;
+}
+.specialopinion{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 95%;
+    margin-top: 5px;
+    height: 20%;
+    display: grid;
+    grid-template-areas:
+    'img content content'
+    'name content content';
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.specialopinion:hover{
+    width: 100%;
+}
+.specialopinion img{
+    grid-area: img;
+    height: 10vh;
+    border-radius: 10px;
+}
+.specialopinion h3{
+    grid-area: name;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+.specialopinion p{
+    grid-area: content;
+    background-color: rgba(128, 128, 128, 0.24);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
 }
