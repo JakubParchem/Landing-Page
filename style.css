@@ -7,6 +7,7 @@ header{
     background-color: cornflowerblue;
     margin:0;
     flex-wrap: nowrap;
+    border-radius: 10px;
 }
 menu{
     display: flex;
@@ -45,14 +46,15 @@ menu li {
 header img{
     height:98%;
     border:1px solid cornflowerblue;
+    border-radius: 10px;
 }
 body{
     font-family: sans-serif;
 }
 textarea{
     resize: none;
-    width: 80%;
-    height: 20vh;
+    width: 70%;
+    height: 12vh;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid lightgray;
@@ -90,6 +92,7 @@ input{
     margin-bottom: 5px;
     width: 50%;
     margin-left: 25%;
+    margin-top: 5px;
 }
 .opinion h3{
     text-align: center;

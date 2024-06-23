@@ -17,13 +17,26 @@ public function __construct($str)
     }
 }
 public function __toString(){
-    return "<div class='opinion'> 
-              <p>$this->content</p>
-              <h3>$this->sender</h3>
-          </div>";
+    return "<div class='opinion'> <p>$this->content</p><h3>$this->sender</h3></div>";
 }
 public function display(){
   return $this->sender.";;\n".$this->content."~";
 }
+    public function getSender()
+    {
+        return $this->sender;
+    }
+    public function setSender(string $sender)
+    {
+        $this->sender = $sender;
+    }
+    public function getContent()
+    {
+        return $this->content;
+    }
+    public function setContent(string $content)
+    {
+        $this->content = $content;
+    }
 }
 ?>
