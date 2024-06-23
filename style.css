@@ -83,6 +83,7 @@ input{
 }
 .submit:hover{
     background-color: #646fed;
+    padding: 15px;
     width: 64%;
 }
 .opinion{
@@ -104,4 +105,32 @@ input{
     padding: 20px;
     color: white;
     border-radius: 10px;
+}
+#call{
+    background-image: url("https://thumbs.dreamstime.com/b/u%C3%A5%E2%80%BAmiechni%C3%A4%E2%84%A2ci-fachowi-lider-biznesu-i-pracownik-grupa-zespalaj%C3%A4%E2%80%A6-si%C3%A4%E2%84%A2-portret-biznesowi-trener%C3%A3%C2%B3w-lider%C3%A3%C2%B3w-mentory-pozuje-wraz-z-141681202.jpg");
+    background-size: cover;
+    width: 90vw;
+    height: 50vh;
+    margin-left: 2vw;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+#call a{
+    float: right;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    right: 0;
+    bottom: 5%;
+    background-color: rgba(100, 149, 237, 0.68);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+    width: 60%;
+}
+#call a:hover{
+    background-color: rgba(100, 149, 237, 0.9);
+    padding: 15px;
 }
