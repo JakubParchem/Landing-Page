@@ -28,3 +28,4 @@ if(isset($_COOKIE['wrong_input']))
     ?>
 </div>
 </body>
+</html>
