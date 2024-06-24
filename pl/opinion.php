@@ -10,11 +10,15 @@
 <a href="index.php" class="submit">Powrót do strony Głównej</a>
 <h2>Wyślij Opinie</h2>
 <form action="../sendopinion.php" method="post">
-    <input type="text" hidden="hidden" name="location" value="pl/index.php">
+    <input type="text" hidden="hidden" name="location" value="pl/opinion.php">
     <input type="text" name="name" placeholder="Imie i Nazwisko" required>
     <textarea name="message" placeholder="Opinia" required></textarea>
     <input type="submit" value="wyślij" class="submit">
 </form>
+<?php
+if(isset($_COOKIE['wrong_input']))
+    echo "<p class='error'>".$_COOKIE['wrong_input']."</p>"
+?>
 <h2>Więcej Opinii</h2>
 <div class="op">
     <?php

@@ -15,6 +15,10 @@
         <textarea name="message" placeholder="Opinion" required></textarea>
         <input type="submit" value="send" class="submit">
  </form>
+<?php
+if(isset($_COOKIE['wrong_input']))
+    echo "<p class='error'>".$_COOKIE['wrong_input']."</p>"
+?>
 <h2>More Opinions</h2>
 <div class="op">
     <?php

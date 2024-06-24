@@ -316,3 +316,7 @@ footer .links{
     grid-template: '1fr 1fr' '1fr 1fr';
     gap: 5px;
 }
+.error{
+    color: red;
+    text-align: center;
+}

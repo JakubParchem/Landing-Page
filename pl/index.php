@@ -24,6 +24,6 @@ $prod=new Products("pl");
 $prod->display();
 ?>
 <h2>Kontakt</h2>
-<?php include "contact.html" ?>
+<?php include "contact.php" ?>
 <?php include "footer.html";?>
 </html>
